@@ -1,8 +1,11 @@
+import Home from "./pages/Home";
+// import "./index.css";
+
 function App() {
   return (
     <>
       <div>
-        <h1>hello mairie site</h1>
+        <Home></Home>
       </div>
     </>
   );

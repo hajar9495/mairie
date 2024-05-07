@@ -12,8 +12,13 @@ const Header = () => {
     - @tailwindcss/forms
 */}
 
-      <header className="bg-grisHeader h-56">
-        <img src={imgHeader} className="mx-auto" alt="" />
+      <header className="bg-grisHeader h-40 md:h-56">
+        {/* autre image de bandeau pour la version  mobile 566 x 111 */}
+        <img
+          src={imgHeader}
+          className="object-cover object-center h-56 w-auto mx-auto"
+          alt=""
+        />
         {/* <div className="mx-auto max-w-screen-xl px-4 py-8 sm:px-6 sm:py-12 lg:px-8">
           <div className="sm:flex sm:items-center sm:justify-between">
             <div className="text-center sm:text-left">

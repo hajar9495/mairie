@@ -1,5 +1,6 @@
 // import React from "react";
 import "../index.css";
+import imgHeader from "../assets/mairie-header.png";
 
 const Header = () => {
   return (
@@ -11,8 +12,9 @@ const Header = () => {
     - @tailwindcss/forms
 */}
 
-      <header className="bg-gray-50">
-        <div className="mx-auto max-w-screen-xl px-4 py-8 sm:px-6 sm:py-12 lg:px-8">
+      <header className="bg-grisHeader h-56">
+        <img src={imgHeader} className="mx-auto" alt="" />
+        {/* <div className="mx-auto max-w-screen-xl px-4 py-8 sm:px-6 sm:py-12 lg:px-8">
           <div className="sm:flex sm:items-center sm:justify-between">
             <div className="text-center sm:text-left">
               <h1 className="text-2xl font-bold text-gray-900 sm:text-3xl">
@@ -53,7 +55,7 @@ const Header = () => {
               </button>
             </div>
           </div>
-        </div>
+        </div> */}
       </header>
     </>
   );

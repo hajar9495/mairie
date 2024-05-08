@@ -1,13 +1,17 @@
-import Home from "./pages/Home";
-import Menu from "./sections/Menu";
+// import Home from "./pages/Home";
+// import Menu from "./sections/Menu";
 import "./index.css";
+import Background from "./sections/Background";
+// import Mainbackground from "./sections/Mainbackground";
 
 function App() {
   return (
     <>
       <div>
-        <Home></Home>
-        <Menu></Menu>
+        <Background></Background>
+        {/* <Home></Home> */}
+        {/* <Menu></Menu> */}
+        {/* <Mainbackground></Mainbackground> */}
       </div>
     </>
   );

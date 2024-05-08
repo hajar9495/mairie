@@ -1,11 +1,13 @@
 import Home from "./pages/Home";
-// import "./index.css";
+import Menu from "./sections/Menu";
+import "./index.css";
 
 function App() {
   return (
     <>
       <div>
         <Home></Home>
+        <Menu></Menu>
       </div>
     </>
   );

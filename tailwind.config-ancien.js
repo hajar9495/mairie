@@ -2,11 +2,10 @@
 export default {
   content: ["./index.html", "./src/**/*.{js,ts,jsx,tsx}"],
   theme: {
-    extend: {
-      colors: {
-        grisHeader: "#BCBCBC",
-      },
+    colors: {
+      grisHeader: "#BCBCBC",
     },
+    extend: {},
   },
   plugins: [],
 };

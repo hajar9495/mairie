@@ -1,15 +1,12 @@
-// import React from 'react'
-
 import Header from "./Header";
 import Main from "./Main";
 
 const Background = () => {
   return (
     <>
-      <div className="min-h-screen bg-slate-400">
+      <div className="min-h-screen bg-grisBody">
         <Header></Header>
         <Main></Main>
-        <p>background</p>
       </div>
     </>
   );

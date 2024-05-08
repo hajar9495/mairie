@@ -15,8 +15,13 @@ export default {
         "2.5xl": "1920px ",
         "3xl": "2560px ",
       },
+      // largeur souhaité
       width: {
-        128: "1264px",
+        128: "1240px",
+      },
+      // hauteur souhaité
+      height: {
+        128: "710px",
       },
     },
   },

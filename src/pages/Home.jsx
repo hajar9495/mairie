@@ -1,9 +1,9 @@
-import Header from "../sections/Header";
+import Background from "../sections/Background";
 
 const Home = () => {
   return (
     <>
-      <Header></Header>
+      <Background></Background>
     </>
   );
 };

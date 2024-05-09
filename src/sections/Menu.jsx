@@ -5,8 +5,8 @@ import { MdLightbulbOutline, MdDateRange } from "react-icons/md";
 export default function Menu() {
   return (
     <>
-      <div className=" w-400 h-44 ">
-        <div className="grid grid-cols-4 gap-2 text-white">
+      <div className="w-full sm:w-96 md:w-80 lg:w-400 h-44 ">
+        <div className="grid grid-cols-3 lg:grid-cols-4 gap-2 text-white">
           <div className=" bg-rouge h-77 flex items-center justify-center text-5xl">
             <FaPenToSquare />
           </div>

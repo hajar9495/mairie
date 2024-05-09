@@ -1,9 +1,6 @@
-// import { Button } from "antd";
-// import { FaHouseChimneyUser } from "react-icons/fa6";
 import { FaPenToSquare, FaHouseChimneyUser } from "react-icons/fa6";
 import { FaClock } from "react-icons/fa";
 import { MdLightbulbOutline, MdDateRange } from "react-icons/md";
-// import { FaAccessibleIcon } from "react-icons/fa";
 
 export default function Menu() {
   return (

@@ -4,8 +4,9 @@ export default {
   theme: {
     extend: {
       colors: {
+        // header
         grisHeader: "#BCBCBC",
-        // grisBody: "rgb(188, 188, 188)",
+        // background
         grisBody: "rgb(230, 230, 230)",
         // symbole
         rouge: "#8c0047",
@@ -13,6 +14,8 @@ export default {
         orange: "#f08a00",
         bleu: "#095780",
         vert: "#97be45",
+        // formulaire
+        grisForm: "#deedef",
       },
       screens: {
         // comme l'image du bandeau

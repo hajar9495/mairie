@@ -16,6 +16,8 @@ export default {
         vert: "#97be45",
         // formulaire
         grisForm: "#deedef",
+        // bandeau formulaire
+        bleuForm: "#00497e",
       },
       screens: {
         // comme l'image du bandeau

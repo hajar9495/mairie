@@ -11,7 +11,8 @@ const Main = () => {
       </div> */}
 
       <div className="relative w-screen h-screen bg-white mx-auto px-4 1.5xl:w-128 1.5xl:h-128">
-        <Menu className="absolute top-0 bottom-0 h-52 w-12"></Menu>
+        {/* <Menu className="absolute top-0 bottom-0 h-52 w-12"></Menu> */}
+        <Menu></Menu>
       </div>
       {/* <Menu className="absolute bottom-0 right-0"></Menu> */}
     </>

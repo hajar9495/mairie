@@ -7,6 +7,12 @@ export default {
         grisHeader: "#BCBCBC",
         // grisBody: "rgb(188, 188, 188)",
         grisBody: "rgb(230, 230, 230)",
+        // symbole
+        rouge: "#8c0047",
+        rose: "#e52676",
+        orange: "#f08a00",
+        bleu: "#095780",
+        vert: "#97be45",
       },
       screens: {
         // comme l'image du bandeau
@@ -18,9 +24,11 @@ export default {
       // largeur souhaité
       width: {
         128: "1240px",
+        400: "400px",
       },
       // hauteur souhaité
       height: {
+        77: "77px",
         128: "710px",
       },
     },

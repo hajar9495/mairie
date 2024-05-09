@@ -1,21 +1,32 @@
-// import React from "react";
-// import "../index.css";
+// import { Button } from "antd";
+// import { FaHouseChimneyUser } from "react-icons/fa6";
+import { FaPenToSquare, FaHouseChimneyUser } from "react-icons/fa6";
+import { FaClock } from "react-icons/fa";
+import { MdLightbulbOutline, MdDateRange } from "react-icons/md";
+// import { FaAccessibleIcon } from "react-icons/fa";
 
 export default function Menu() {
   return (
     <>
-      <div className="bg-red-500 w-80 h-48 relative">
-        <div className="absolute top-0 right-0 bg-green-500">ok menu</div>
-      </div>
-      {/* <div className="relative w-96 h-44 bg-purple-500">
-        <div className="absolute top-0 right-0 flex flex-row ">
-          <div className="basis-1/5 bg-red-400">01</div>
-          <div className="basis-1/5 bg-red-700">02</div>
-          <div className="basis-1/5 bg-green-700">03</div>
-          <div className="basis-1/5 bg-green-800">03</div>
-          <div className="basis-1/5 bg-green-500">03</div>
+      <div className=" w-400 h-44 ">
+        <div className="grid grid-cols-4 gap-2 text-white">
+          <div className=" bg-rouge h-77 flex items-center justify-center text-5xl">
+            <FaPenToSquare />
+          </div>
+          <div className=" bg-rose h-77 flex items-center justify-center text-5xl">
+            <FaClock />
+          </div>
+          <div className=" bg-orange h-77 flex items-center justify-center text-5xl">
+            <MdLightbulbOutline />
+          </div>
+          <div className=" bg-bleu h-77 flex items-center justify-center text-5xl">
+            <FaHouseChimneyUser />
+          </div>
+          <div className=" bg-vert h-77 flex items-center justify-center text-5xl">
+            <MdDateRange />
+          </div>
         </div>
-      </div> */}
+      </div>
     </>
   );
 }

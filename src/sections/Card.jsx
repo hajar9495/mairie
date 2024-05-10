@@ -1,13 +1,9 @@
 // import React from "react";
 
-// export const Card = (props) => {
-export const Card = ({userName}) => {
-//   console.log(props);
+export const Card = ({ className }) => {
   return (
     <>
-      <div>Card</div>
-      <p>{userName}</p>
-      {/* <p>{props.userName}</p>    */}
+      <div className={className}>Card</div>
     </>
   );
 };

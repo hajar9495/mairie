@@ -2,6 +2,8 @@ import Menu from "./Menu";
 import "../index.css";
 import EspacePerso from "./EspacePerso";
 import SeConnecter from "./SeConnecter";
+import Tabs from "./Tabs";
+// Tabs;
 
 const Main = () => {
   return (
@@ -10,6 +12,7 @@ const Main = () => {
         <Menu></Menu>
         <EspacePerso></EspacePerso>
         <SeConnecter></SeConnecter>
+        <Tabs></Tabs>
       </div>
     </>
   );

@@ -4,18 +4,34 @@ import "../index.css";
 import EspacePerso from "./EspacePerso";
 import SeConnecter from "./SeConnecter";
 import Tabs from "./Tabs";
+import ContenuMain from "./ContenuMain";
 // Tabs;
 
 const Main = () => {
   return (
     <>
-      <div className="relative w-screen h-screen bg-white mx-auto px-4 1.5xl:w-128 1.5xl:h-128">
+      {/* <div className="relative w-screen h-screen bg-white mx-auto px-4 1.5xl:w-128 1.5xl:h-128">
         <Menu
           className={"bg-slate-600 absolute right-0 w-full md:w-auto z-10"}
         ></Menu>
         <EspacePerso className={"hidden md:block"}></EspacePerso>
         <SeConnecter></SeConnecter>
         <Tabs></Tabs>
+        <ContenuMain></ContenuMain>
+      </div> */}
+      <div className="w-screen h-screen bg-white mx-auto px-4 1.5xl:w-128 1.5xl:h-128 grid grid-cols-4 auto-cols-max ">
+        <div className="bg-pink-500 col-span-1 ">
+          <EspacePerso className={"hidden md:block"}></EspacePerso>
+          <SeConnecter></SeConnecter>
+        </div>
+        <div className="  bg-purple-400 col-span-2">
+          <ContenuMain></ContenuMain>
+        </div>
+        <div className=" bg-red-800 col-span-1 ">
+          <Menu className={"bg-slate-600"}></Menu>
+        </div>
+
+        {/* <Tabs></Tabs> */}
       </div>
     </>
   );

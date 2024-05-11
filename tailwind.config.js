@@ -18,6 +18,8 @@ export default {
         grisForm: "#deedef",
         // bandeau formulaire
         bleuForm: "#00497e",
+        // actualites
+        grisActualite: "#F4F4F4",
       },
       screens: {
         // comme l'image du bandeau

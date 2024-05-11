@@ -1,3 +1,4 @@
+import React from "react";
 import imgHeader from "../assets/mairie-header.png";
 
 const Header = () => {

@@ -1,4 +1,4 @@
-// import React from 'react'
+import React from "react";
 import { GoPersonFill } from "react-icons/go";
 
 const EspacePerso = ({ className }) => {

@@ -1,3 +1,4 @@
+import React from "react";
 import { BsPeopleFill } from "react-icons/bs";
 
 const SeConnecter = () => {

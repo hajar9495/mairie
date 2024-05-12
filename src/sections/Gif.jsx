@@ -4,9 +4,12 @@ import Image from "./../assets/gif.png";
 const Gif = () => {
   return (
     <>
-      <div>
-        <h1>Gif</h1>
-        <img src={Image} alt="illustration de la ville" />
+      <div className=" w-9/12 md:w-10/12 lg:w-11/12">
+        <img
+          src={Image}
+          alt="illustration de la ville"
+          className=" w-11/12 mx-auto mt-4"
+        />
       </div>
     </>
   );

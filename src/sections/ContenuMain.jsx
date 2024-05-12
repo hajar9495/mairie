@@ -26,8 +26,12 @@ const ContenuMain = ({ className }) => {
           <a href="" className="underline cursor-pointer">
             lien externe
           </a>
+          <p>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Culpa,
+            eius?
+          </p>
         </div>
-        <Demarches className={"bg-red-300"}></Demarches>
+        <Demarches className={""}></Demarches>
       </div>
     </>
   );

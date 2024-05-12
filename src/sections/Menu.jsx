@@ -12,23 +12,23 @@ export default function Menu({ className }) {
           className="flex flex-wrap
         w-full mx-auto lg:w-auto h-44 lg:mx-3 text-white gap-2"
         >
-          <div className=" bg-rouge h-77 w-74 content-start pt-2 ">
+          <div className=" bg-rouge h-77 w-74 content-start pt-2 rounded-md ">
             <FaPenToSquare className="mx-auto text-2xl" />
             <p className="text-xs uppercase py-2 flex justify-center">
               démarches
             </p>
           </div>
-          <div className=" bg-rose h-77 w-74 content-start pt-2 ">
+          <div className=" bg-rose h-77 w-74 content-start pt-2 rounded-md ">
             <FaClock className="mx-auto text-2xl" />
             <p className="text-xs uppercase py-2 flex justify-center">
               Activites
             </p>
           </div>
-          <div className=" bg-orange h-77 w-74 content-start pt-2">
+          <div className=" bg-orange h-77 w-74 content-start pt-2 rounded-md">
             <MdLightbulbOutline className="mx-auto text-2xl" />
             <p className="text-xs uppercase py-2 flex justify-center ">Infos</p>
           </div>
-          <div className=" bg-bleu h-77 w-74 content-start pt-2">
+          <div className=" bg-bleu h-77 w-74 content-start pt-2 rounded-md">
             <FaHouseChimneyUser className="mx-auto text-2xl" />
             <p className="text-xs uppercase py-2 flex justify-center">mairie</p>
           </div>

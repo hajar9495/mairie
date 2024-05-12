@@ -5,7 +5,7 @@ const ContenuMain = ({ className }) => {
   return (
     <>
       <div className={className}>
-        <div className="overflow-hidden">
+        <div className="overflow-hidden my-4">
           <h1 className="text-xl uppercase font-semibold">
             Bienvenue sur votre espace citoyens
           </h1>

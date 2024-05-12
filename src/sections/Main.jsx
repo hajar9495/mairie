@@ -34,7 +34,7 @@ const Main = () => {
           <Menu></Menu>
           <Actualites></Actualites>
         </div>
-        <div className="   col-span-5 md:col-span-5 lg:col-span-2">
+        <div className="col-span-5 md:col-span-5 lg:col-span-2">
           <ContenuMain></ContenuMain>
         </div>
 

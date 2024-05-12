@@ -11,7 +11,7 @@ const Actualites = ({ className }) => {
         <div className=" grid grid-cols-1 gap-y-5 mx-3 ">
           <div
             className="bg-grisActualite w-full 
-           lg:w-72 h-32 mx-auto grid grid-cols-3"
+           lg:w-72 h-32 mx-auto grid grid-cols-3 overflow-auto"
           >
             <div className="col-span-1 flex items-center">
               <img src={actu1} className="w-11/12 h-11/12 mx-auto" alt="" />
@@ -29,13 +29,12 @@ const Actualites = ({ className }) => {
               </a>
             </div>
           </div>
-          <div className="bg-grisActualite w-full lg:w-72 h-32 mx-auto grid grid-cols-3">
+          <div className="bg-grisActualite w-full lg:w-72 h-32 mx-auto grid grid-cols-3 overflow-auto">
             <div
               className="col-span-1 flex items-center 
             0"
             >
               <img src={actu2} className="w-11/12 h-11/12 mx-auto" alt="" />
-              {/* <img src={actu2} className="object-contain" alt="" /> */}
             </div>
             <div className="col-span-2 text-sm px-2">
               <h2 className="text-base uppercase">titre actualite 1</h2>
@@ -48,7 +47,7 @@ const Actualites = ({ className }) => {
               </a>
             </div>
           </div>
-          <div className="bg-grisActualite w-full lg:w-72 h-32 mx-auto grid grid-cols-3 ">
+          <div className="bg-grisActualite w-full lg:w-72 h-32 mx-auto grid grid-cols-3 overflow-auto">
             <div className="col-span-1 flex items-center">
               <img src={actu3} className="w-11/12 h-11/12 mx-autos" alt="" />
             </div>

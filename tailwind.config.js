@@ -30,11 +30,13 @@ export default {
       },
       // largeur souhaité
       width: {
+        74: "74px",
         128: "1240px",
         400: "400px",
       },
       // hauteur souhaité
       height: {
+        74: "74px",
         77: "77px",
         128: "710px",
       },

@@ -6,7 +6,7 @@ const ContenuMain = ({ className }) => {
     <>
       <div className={className}>
         <div className="overflow-hidden my-4">
-          <h1 className="text-xl uppercase font-semibold">
+          <h1 className="text-xl uppercase font-semibold font-body">
             Bienvenue sur votre espace citoyens
           </h1>
           <p>

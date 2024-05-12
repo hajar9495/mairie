@@ -10,31 +10,31 @@ export default function Menu({ className }) {
       <div className={className}>
         <div
           className="flex flex-wrap
-        w-full mx-auto lg:w-auto h-44 lg:mx-3 text-white gap-2"
+        w-full mx-auto h-44 sm:h-32 md:h-28 lg:h-44 lg:mx-3 text-white gap-2 font-body"
         >
           <div className=" bg-rouge h-77 w-74 content-start pt-2 rounded-md ">
             <FaPenToSquare className="mx-auto text-2xl" />
-            <p className="text-xs uppercase py-2 flex justify-center">
+            <p className="text-sm uppercase py-2 flex justify-center">
               démarches
             </p>
           </div>
           <div className=" bg-rose h-77 w-74 content-start pt-2 rounded-md ">
             <FaClock className="mx-auto text-2xl" />
-            <p className="text-xs uppercase py-2 flex justify-center">
+            <p className="text-sm uppercase py-2 flex justify-center">
               Activites
             </p>
           </div>
           <div className=" bg-orange h-77 w-74 content-start pt-2 rounded-md">
             <MdLightbulbOutline className="mx-auto text-2xl" />
-            <p className="text-xs uppercase py-2 flex justify-center ">Infos</p>
+            <p className="text-sm uppercase py-2 flex justify-center ">Infos</p>
           </div>
           <div className=" bg-bleu h-77 w-74 content-start pt-2 rounded-md">
             <FaHouseChimneyUser className="mx-auto text-2xl" />
-            <p className="text-xs uppercase py-2 flex justify-center">mairie</p>
+            <p className="text-sm uppercase py-2 flex justify-center">mairie</p>
           </div>
           <div className=" bg-vert h-77 w-74 content-start pt-2">
             <MdDateRange className="mx-auto text-2xl" />
-            <p className="text-xs uppercase py-2 flex justify-center">date</p>
+            <p className="text-sm uppercase py-2 flex justify-center">date</p>
           </div>
         </div>
       </div>

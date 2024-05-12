@@ -32,11 +32,12 @@ const Main = () => {
         </div>
         <div className="col-span-5 md:col-span-3 lg:col-span-1 lg:order-2 my-3">
           <Menu></Menu>
-          <Actualites></Actualites>
+          <Actualites className={"mt-2"}></Actualites>
         </div>
         <div className="col-span-5 md:col-span-5 lg:col-span-2">
           <ContenuMain></ContenuMain>
         </div>
+        {/* <p className="font-body">font family</p> */}
 
         {/* <Tabs></Tabs> */}
       </div>

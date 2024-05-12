@@ -40,6 +40,10 @@ export default {
         77: "77px",
         128: "710px",
       },
+      fontFamily: {
+        body: ["Cuprum"],
+        // sans: ['"Cuprum"', ...defaultTheme.fontFamily.sans],
+      },
     },
   },
   plugins: ["require('flowbite/plugin')"],

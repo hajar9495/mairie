@@ -14,7 +14,7 @@ const Actualites = ({ className }) => {
            lg:w-72 h-32 mx-auto grid grid-cols-3"
           >
             <div className="col-span-1 flex items-center">
-              <img src={actu1} className="" alt="" />
+              <img src={actu1} className="w-11/12 h-11/12 mx-auto" alt="" />
             </div>
             <div className="col-span-2 text-sm px-2">
               {/* commentaire */}
@@ -29,9 +29,13 @@ const Actualites = ({ className }) => {
               </a>
             </div>
           </div>
-          <div className="bg-grisActualite w-full  lg:w-72 h-32 mx-auto grid grid-cols-3">
-            <div className="col-span-1 flex items-center">
-              <img src={actu2} alt="" />
+          <div className="bg-grisActualite w-full lg:w-72 h-32 mx-auto grid grid-cols-3">
+            <div
+              className="col-span-1 flex items-center 
+            0"
+            >
+              <img src={actu2} className="w-11/12 h-11/12 mx-auto" alt="" />
+              {/* <img src={actu2} className="object-contain" alt="" /> */}
             </div>
             <div className="col-span-2 text-sm px-2">
               <h2 className="text-base uppercase">titre actualite 1</h2>
@@ -44,16 +48,16 @@ const Actualites = ({ className }) => {
               </a>
             </div>
           </div>
-          <div className="bg-grisActualite w-full  lg:w-72 h-32 mx-auto grid grid-cols-3 overflow-auto">
+          <div className="bg-grisActualite w-full lg:w-72 h-32 mx-auto grid grid-cols-3 ">
             <div className="col-span-1 flex items-center">
-              <img src={actu3} alt="" />
+              <img src={actu3} className="w-11/12 h-11/12 mx-autos" alt="" />
             </div>
             <div className="col-span-2 text-sm px-2">
               <h2 className="text-base uppercase">titre actualite 1</h2>
               <p>
                 Lorem ipsum dolor sit amet consectetur, adipisicing elit.
                 Voluptatem tempore voluptates .
-              </p>{" "}
+              </p>
               <a href="" className="underline cursor-pointer">
                 voir plus
               </a>

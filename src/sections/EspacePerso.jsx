@@ -8,7 +8,7 @@ const EspacePerso = ({ className }) => {
         <div className="h-40 w-72 md:w-11/12 text-sm border bg-grisForm my-4">
           <div className="flex items-stretch bg-bleuForm text-white w-full text-lg content-center">
             <GoPersonFill className="self-center" />
-            <p className="uppercase pl-2">Espace Perso</p>
+            <p className="uppercase pl-2 font-body">Espace Perso</p>
           </div>
           <div className="relative mt-2 rounded-md shadow-sm">
             <input

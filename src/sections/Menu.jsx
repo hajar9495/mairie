@@ -32,7 +32,7 @@ export default function Menu({ className }) {
             <FaHouseChimneyUser className="mx-auto text-2xl" />
             <p className="text-sm uppercase py-2 flex justify-center">mairie</p>
           </div>
-          <div className=" bg-vert h-77 w-74 content-start pt-2">
+          <div className=" bg-vert h-77 w-74 content-start pt-2 rounded-md">
             <MdDateRange className="mx-auto text-2xl" />
             <p className="text-sm uppercase py-2 flex justify-center">date</p>
           </div>

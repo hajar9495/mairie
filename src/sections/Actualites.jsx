@@ -8,7 +8,7 @@ const Actualites = ({ className }) => {
     <>
       <div className={className}>
         <h1 className="mx-3 font-body uppercase text-xl"> les Actualités</h1>
-        <div className=" grid grid-cols-1 gap-y-5 mx-3 ">
+        <div className=" grid grid-cols-1 gap-y-5 mx-3">
           <div
             className="bg-grisActualite w-full 
            lg:w-72 h-32 mx-auto grid grid-cols-3 overflow-auto  shadow-lg border border-gray-200 rounded-md"
@@ -16,17 +16,17 @@ const Actualites = ({ className }) => {
             <div className="col-span-1 flex items-center">
               <img src={actu1} className="w-11/12 h-11/12 mx-auto" alt="" />
             </div>
-            <div className="col-span-2 text-sm px-2">
+            <div className="col-span-2 px-2">
               {/* commentaire */}
 
               <h2 className="text-base uppercase font-body">
                 titre actualite 1
               </h2>
-              <p>
+              <p className="text-xs">
                 Lorem ipsum dolor sit amet consectetur, adipisicing elit.
                 Voluptatem tempore voluptates .
               </p>
-              <a href="" className="underline cursor-pointer">
+              <a href="" className="underline cursor-pointer text-xs">
                 voir plus
               </a>
             </div>
@@ -38,7 +38,7 @@ const Actualites = ({ className }) => {
             >
               <img src={actu2} className="w-11/12 h-11/12 mx-auto" alt="" />
             </div>
-            <div className="col-span-2 text-sm px-2">
+            <div className="col-span-2 text-xs px-2">
               <h2 className="text-base uppercase font-body">
                 titre actualite 1
               </h2>
@@ -55,7 +55,7 @@ const Actualites = ({ className }) => {
             <div className="col-span-1 flex items-center">
               <img src={actu3} className="w-11/12 h-11/12 mx-autos" alt="" />
             </div>
-            <div className="col-span-2 text-sm px-2">
+            <div className="col-span-2 text-xs px-2">
               <h2 className="text-base uppercase font-body">
                 titre actualite 1
               </h2>

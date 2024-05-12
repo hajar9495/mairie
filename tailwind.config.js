@@ -42,6 +42,7 @@ export default {
       },
       fontFamily: {
         body: ["Cuprum"],
+        poppins: ['"Poppins", sans-serif;'],
         // sans: ['"Cuprum"', ...defaultTheme.fontFamily.sans],
       },
     },

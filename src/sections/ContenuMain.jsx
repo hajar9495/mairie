@@ -1,11 +1,13 @@
 import React from "react";
 import Demarches from "./Demarches";
+// import DateTime from "./DateTime";
 
 const ContenuMain = ({ className }) => {
   return (
     <>
       <div className={className}>
-        <div className="overflow-hidden my-4">
+        {/* <DateTime></DateTime> */}
+        <div className="overflow-hidden my-4 ">
           <h1 className="text-2xl uppercase font-semibold font-body">
             Bienvenue sur votre espace citoyens
           </h1>
@@ -41,6 +43,10 @@ const ContenuMain = ({ className }) => {
           </div>
         </div>
         <Demarches></Demarches>
+        <div className="w-full h-5 bg-red-400 mt-10 lg:mt-56 inline-flex justify-around">
+          <a href="https://mennai-hajar.fr">mennai-hajar.com</a>
+          <a href="">mentions legales</a>
+        </div>
       </div>
     </>
   );

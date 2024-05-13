@@ -1,13 +1,15 @@
 import React, { useState, useEffect } from "react";
 
 const DateTime = () => {
-  var [date, setDate] = useState(new Date());
-  useEffect(() => {
-    
-  });
+  let [date, setDate] = useState(new Date());
+
   return (
     <>
-      <div>DateTime</div>
+      <div>
+        {/* <p>jour : {date.toDateString()}</p> */}
+        <p>{date.toLocaleDateString()}</p>
+        {/* <p>jour : {date.toString()}</p> */}
+      </div>
     </>
   );
 };

@@ -1,13 +1,20 @@
 import "./index.css";
+import { Router, Routes, Route } from "react-router-dom";
+
 import Home from "./pages/Home";
-import { Card } from "./sections/Card";
+import GRPG from "./pages/GRPGPage";
 
 function App() {
   return (
     <>
-      {/* <Card userName={"sorry"}></Card> */}
-      {/* <Card className={"bg-red-500 w-9"}></Card> */}
+      {/* <Router>
+        <Routes>
+          <Route path="/" element={<Home />} />
+          <Route path="/GRPG" element={<GRPG />} />
+        </Routes>
+      </Router> */}
       <Home></Home>
+      {/* <GRPG></GRPG> */}
     </>
   );
 }

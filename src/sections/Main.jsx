@@ -29,6 +29,7 @@ const Main = () => {
         </div>
         <div className="col-span-5 md:col-span-5 lg:col-span-2">
           <ContenuMain></ContenuMain>
+          {/* <div className="w-full h-5 bg-red-400 mt-5"></div> */}
         </div>
       </div>
     </>

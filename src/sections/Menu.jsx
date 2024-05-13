@@ -3,6 +3,7 @@ import React from "react";
 import { FaPenToSquare, FaHouseChimneyUser } from "react-icons/fa6";
 import { FaClock } from "react-icons/fa";
 import { MdLightbulbOutline, MdDateRange } from "react-icons/md";
+import DateTime from "./DateTime";
 
 export default function Menu({ className }) {
   // const [theDate, setTheDate] = useState(new Date());
@@ -42,7 +43,8 @@ export default function Menu({ className }) {
           <div className=" bg-vert h-77 w-74 content-start pt-2 rounded-md cursor-pointer">
             <MdDateRange className="mx-auto text-2xl" />
             <p className="text-sm uppercase py-2 flex justify-center">
-              date
+              {/* date */}
+              <DateTime></DateTime>
               {/* date: {console.log(Date().now)} */}
             </p>
           </div>

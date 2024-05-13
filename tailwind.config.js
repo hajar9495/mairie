@@ -21,6 +21,8 @@ export default {
         bleuForm: "#00497e",
         // actualites
         grisActualite: "#F4F4F4",
+        // footer
+        bleuFooter: "#2094d1",
       },
       screens: {
         // comme l'image du bandeau
@@ -47,9 +49,7 @@ export default {
         // sans: ['"Cuprum"', ...defaultTheme.fontFamily.sans],
       },
     },
-    plugins: [
-      flowbite.plugin(),
-    ],
+    plugins: [flowbite.plugin()],
   },
   // plugins: ["require('flowbite/plugin')"],
 };

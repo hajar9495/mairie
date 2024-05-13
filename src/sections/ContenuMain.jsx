@@ -48,7 +48,7 @@ const ContenuMain = ({ className }) => {
           </div>
         </div>
         <Demarches></Demarches>
-        <Footer></Footer>
+        {/* <Footer></Footer> */}
       </div>
     </>
   );

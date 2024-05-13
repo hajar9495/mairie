@@ -3,19 +3,21 @@ import React from "react";
 // import GRPG from "../pages/GRPGPage";
 import { Link } from "react-router-dom";
 
-const Footer = () => {
+const Footer = ({ className }) => {
   return (
     <>
-      <div className="w-full h-5 bg-red-400 inline-flex justify-around">
-        <p>
-          <Link to="/">Accueil</Link>
-        </p>
-        <p>
-          <Link to="/grpg">GRPPG</Link>
-        </p>
-        <p>
-          <a href="https://mennai-hajar.fr">mennai-hajar.fr</a>
-        </p>
+      <div className={className}>
+        <div className="w-full h-6 bg-grisForm text-gray-700 inline-flex justify-around align-middle text-base mt-5 rounded-md">
+          <p>
+            <Link to="/">Accueil</Link>
+          </p>
+          <p>
+            <Link to="/grpg">GRPPG</Link>
+          </p>
+          <p>
+            <a href="https://mennai-hajar.fr">mennai-hajar.fr</a>
+          </p>
+        </div>
       </div>
     </>
   );

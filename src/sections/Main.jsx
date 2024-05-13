@@ -3,7 +3,7 @@ import Menu from "./Menu";
 import "../index.css";
 import EspacePerso from "./EspacePerso";
 import SeConnecter from "./SeConnecter";
-import Tabs from "./Tabs";
+import TabsEspace from "./TabsEspace";
 import ContenuMain from "./ContenuMain";
 import Actualites from "./Actualites";
 import Gif from "./Gif";
@@ -17,12 +17,11 @@ const Main = () => {
           <EspacePerso className={"hidden md:block"}></EspacePerso>
           <SeConnecter></SeConnecter>
           <Gif></Gif>
-          <TestFlowbite></TestFlowbite>
+          {/* <TestFlowbite></TestFlowbite> */}
         </div>
-        <div className="block col-span-5 md:hidden bg-zinc-900 text-white">
-          <p>ok</p>
+        <div className="block col-span-5 md:hidden">
           {/* flowbite */}
-          <Tabs></Tabs>
+          <TabsEspace></TabsEspace>
         </div>
         <div className="col-span-5 md:col-span-3 lg:col-span-1 lg:order-2 my-3">
           <Menu></Menu>
@@ -31,9 +30,6 @@ const Main = () => {
         <div className="col-span-5 md:col-span-5 lg:col-span-2">
           <ContenuMain></ContenuMain>
         </div>
-        {/* <p className="font-body">font family</p> */}
-
-        {/* <Tabs></Tabs> */}
       </div>
     </>
   );

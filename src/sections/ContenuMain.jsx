@@ -6,7 +6,7 @@ const ContenuMain = ({ className }) => {
     <>
       <div className={className}>
         <div className="overflow-hidden my-4">
-          <h1 className="text-xl uppercase font-semibold font-body">
+          <h1 className="text-2xl uppercase font-semibold font-body">
             Bienvenue sur votre espace citoyens
           </h1>
           <div className="font-poppins text-sm">
@@ -32,10 +32,15 @@ const ContenuMain = ({ className }) => {
               Lorem ipsum dolor sit amet consectetur adipisicing elit. Culpa,
               eius?
             </p>
-            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Temporibus, dignissimos nemo obcaecati, laudantium soluta quis qui quibusdam similique optio unde facere illo a saepe reiciendis officia explicabo nam vitae ad omnis praesentium est.</p>
+            <p>
+              Lorem ipsum dolor sit amet consectetur adipisicing elit.
+              Temporibus, dignissimos nemo obcaecati, laudantium soluta quis qui
+              quibusdam similique optio unde facere illo a saepe reiciendis
+              officia explicabo nam vitae ad omnis praesentium est.
+            </p>
           </div>
         </div>
-        <Demarches className={""}></Demarches>
+        <Demarches></Demarches>
       </div>
     </>
   );

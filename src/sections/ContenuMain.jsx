@@ -1,5 +1,10 @@
 import React from "react";
 import Demarches from "./Demarches";
+import Home from "../pages/Home";
+import GRPG from "../pages/GRPGPage";
+import Footer from "./Footer";
+import { BrowserRouter as Router, Route, Routes } from "react-router-dom";
+
 // import DateTime from "./DateTime";
 
 const ContenuMain = ({ className }) => {
@@ -43,10 +48,7 @@ const ContenuMain = ({ className }) => {
           </div>
         </div>
         <Demarches></Demarches>
-        <div className="w-full h-5 bg-red-400 mt-10 lg:mt-56 inline-flex justify-around">
-          <a href="https://mennai-hajar.fr">mennai-hajar.com</a>
-          <a href="">mentions legales</a>
-        </div>
+        <Footer></Footer>
       </div>
     </>
   );

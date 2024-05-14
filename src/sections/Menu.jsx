@@ -1,20 +1,12 @@
 import React from "react";
-// import React from "react";
 import { FaPenToSquare, FaHouseChimneyUser } from "react-icons/fa6";
 import { FaClock } from "react-icons/fa";
 import { MdLightbulbOutline, MdDateRange } from "react-icons/md";
 import DateTime from "./DateTime";
 
 export default function Menu({ className }) {
-  // const [theDate, setTheDate] = useState(new Date());
-  // setTheDate(new Date());
-  // console.log(theDate);
-
-  // const dateToFormat = "1976-04-19T12:59-0500";
   return (
     <>
-      {/* {<Moment>{dateToFormat}</Moment>} */}
-      {/* refaire en mode flex pour plus de flexibilite comme composant demarches */}
       <div className={className}>
         <div
           className="flex flex-wrap
@@ -45,7 +37,6 @@ export default function Menu({ className }) {
             <div className="text-sm uppercase py-2 flex justify-center">
               {/* date */}
               <DateTime></DateTime>
-              {/* date: {console.log(Date().now)} */}
             </div>
           </div>
         </div>

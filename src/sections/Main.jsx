@@ -17,10 +17,8 @@ const Main = () => {
           <EspacePerso className={"hidden md:block"}></EspacePerso>
           <SeConnecter></SeConnecter>
           <Gif></Gif>
-          {/* <TestFlowbite></TestFlowbite> */}
         </div>
         <div className="block col-span-5 md:hidden">
-          {/* flowbite */}
           <TabsEspace></TabsEspace>
         </div>
         <div className="col-span-5 md:col-span-3 lg:col-span-1 lg:order-2 my-3">
@@ -29,7 +27,6 @@ const Main = () => {
         </div>
         <div className="col-span-5 md:col-span-5 lg:col-span-2">
           <ContenuMain></ContenuMain>
-          {/* <div className="w-full h-5 bg-red-400 mt-5"></div> */}
           <Footer className={"lg:mt-52"}></Footer>
         </div>
       </div>

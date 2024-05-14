@@ -1,17 +1,9 @@
 import React from "react";
 import Demarches from "./Demarches";
-import Home from "../pages/Home";
-import GRPG from "../pages/GRPGPage";
-import Footer from "./Footer";
-import { BrowserRouter as Router, Route, Routes } from "react-router-dom";
-
-// import DateTime from "./DateTime";
-
 const ContenuMain = ({ className }) => {
   return (
     <>
       <div className={className}>
-        {/* <DateTime></DateTime> */}
         <div className="overflow-hidden my-4 ">
           <h1 className="text-2xl uppercase font-semibold font-body">
             Bienvenue sur votre espace citoyens

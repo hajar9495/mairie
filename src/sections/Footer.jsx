@@ -1,6 +1,4 @@
 import React from "react";
-// import Home from "../pages/Home";
-// import GRPG from "../pages/GRPGPage";
 import { Link } from "react-router-dom";
 
 const Footer = ({ className }) => {

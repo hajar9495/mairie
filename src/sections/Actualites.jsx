@@ -17,8 +17,6 @@ const Actualites = ({ className }) => {
               <img src={actu1} className="w-11/12 h-11/12 mx-auto" alt="" />
             </div>
             <div className="col-span-2 px-2">
-              {/* commentaire */}
-
               <h2 className="text-base uppercase font-body">
                 titre actualite 1
               </h2>

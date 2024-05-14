@@ -32,13 +32,6 @@ const Demarches = ({ className }) => {
             <p className="text-center capitalize">demande de logement</p>
           </div>
         </div>
-        {/* <div className="grid grid-cols-5 gap-1 bg-black">
-          <div className="bg-red-700 w-74 h-74">01</div>
-          <div className="bg-red-500 w-74 h-74">01</div>
-          <div className="bg-red-800 w-74 h-74">01</div>
-          <div className="bg-red-900 w-74 h-74">01</div>
-          <div className="bg-red-100 w-74 h-74">01</div>
-        </div> */}
       </div>
     </>
   );

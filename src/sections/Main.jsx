@@ -8,6 +8,7 @@ import ContenuMain from "./ContenuMain";
 import Actualites from "./Actualites";
 import Gif from "./Gif";
 import Footer from "./Footer";
+import TabsFlowTest from "./TabsFlowTest";
 
 const Main = () => {
   return (
@@ -19,7 +20,8 @@ const Main = () => {
           <Gif></Gif>
         </div>
         <div className="block col-span-5 md:hidden">
-          <TabsEspace></TabsEspace>
+          <TabsFlowTest></TabsFlowTest>
+          {/* <TabsEspace></TabsEspace> */}
         </div>
         <div className="col-span-5 md:col-span-3 lg:col-span-1 lg:order-2 my-3">
           <Menu></Menu>

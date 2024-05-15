@@ -1,7 +1,12 @@
 const flowbite = require("flowbite-react/tailwind");
 /** @type {import('tailwindcss').Config} */
 export default {
-  content: ["./index.html", "./src/**/*.{js,ts,jsx,tsx}", flowbite.content()],
+  content: [
+    "./index.html",
+    "./src/**/*.{js,ts,jsx,tsx}",
+    flowbite.content(),
+    "./node_modules/flowbite/**/*.js",
+  ],
   theme: {
     extend: {
       colors: {
@@ -49,7 +54,7 @@ export default {
         // sans: ['"Cuprum"', ...defaultTheme.fontFamily.sans],
       },
     },
-    plugins: [flowbite.plugin()],
+    plugins: [flowbite.plugin(), require("flowbite/plugin")],
   },
   // plugins: ["require('flowbite/plugin')"],
 };
